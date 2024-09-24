@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 600px;
+    height: auto;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin: 10px;
+}
+
+li{
+    list-style: none;
+    
+}
+.right{
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#store{
+    color: orange;
+}
+
+.earphone{
+    box-sizing: border-box;
+    width: 80%;
+    margin: 10px auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card{
+    width: 20%;
+    height: auto;     
+}
+.card.img{
+    width: 100%;
+    height: auto;
+    display: block;  
+}
+.img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    height: 150px; 
+}
+#offer{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.charger{
+    box-sizing: border-box;
+    width: 80%;
+    margin: 20px auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card2{
+    width: 20%;
+    height: auto; 
+}
+.card2 .ch{
+    width: 100;
+    height: auto;
+    display: block;
+}
+.ch{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
